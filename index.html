@@ -1,0 +1,805 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Brian Nyakundi - Computer Technologist & Cybersecurity Specialist</title>
+    <meta name="description" content="Brian Nyakundi - Computer Technologist and Cybersecurity Specialist specializing in networking, data analysis, and security solutions.">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <div class="min-h-screen bg-background text-foreground">
+        <!-- Navigation -->
+        <nav class="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border">
+          <div class="container mx-auto px-4 py-3 flex items-center justify-between">
+            <div class="flex items-center">
+              <span class="text-xl font-bold bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+                Brian Nyakundi
+              </span>
+            </div>
+            
+            <div class="hidden md:flex space-x-1" id="navbar-links">
+              <button class="text-sm font-medium transition-all duration-300 variant-ghost" data-section-id="home">Home</button>
+              <button class="text-sm font-medium transition-all duration-300 variant-ghost" data-section-id="about">About</button>
+              <button class="text-sm font-medium transition-all duration-300 variant-ghost" data-section-id="skills">Skills</button>
+              <button class="text-sm font-medium transition-all duration-300 variant-ghost" data-section-id="certificates">Certificates</button>
+              <button class="text-sm font-medium transition-all duration-300 variant-ghost" data-section-id="projects">Projects</button>
+              <button class="text-sm font-medium transition-all duration-300 variant-ghost" data-section-id="contact">Contact</button>
+            </div>
+            
+            <div class="md:hidden">
+              <button class="text-foreground variant-ghost" id="mobile-menu-button">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                  <line x1="4" x2="20" y1="12" y2="12" />
+                  <line x1="4" x2="20" y1="6" y2="6" />
+                  <line x1="4" x2="20" y1="18" y2="18" />
+                </svg>
+              </button>
+            </div>
+          </div>
+        </nav>
+
+        <main>
+          <!-- Hero Section -->
+          <section id="home" class="min-h-screen flex items-center pt-16 pb-20">
+            <div class="container mx-auto px-4">
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div class="animate-slide-left">
+                  <h1 class="text-4xl md:text-5xl lg:text-6xl font-bold mb-4">
+                    <span class="block">Hi, I'm</span>
+                    <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">
+                      Brian Nyakundi
+                    </span>
+                  </h1>
+                  <h2 class="text-xl md:text-2xl text-muted-foreground mb-6">
+                    Computer Technologist & Cybersecurity Specialist
+                  </h2>
+                  <p class="text-lg mb-8 text-muted-foreground">
+                    Specialized in networking, cybersecurity, and data analysis with a passion for creating secure and efficient technological solutions.
+                  </p>
+                  <div class="flex flex-wrap gap-4">
+                    <button id="get-in-touch-button" class="variant-glow size-lg">
+                      Get In Touch
+                    </button>
+                    <button class="variant-outline size-lg">
+                      View My Work
+                    </button>
+                  </div>
+                </div>
+                <div class="hidden md:flex justify-center animate-slide-right">
+                  <div class="relative">
+                    <div class="w-64 h-64 lg:w-80 lg:h-80 rounded-full bg-gradient-to-r from-blue-500 to-purple-600 absolute blur-3xl opacity-20"></div>
+                    <div class="w-64 h-64 lg:w-80 lg:h-80 rounded-full border-2 border-primary/20 flex items-center justify-center relative">
+                      <div class="text-center p-4">
+                        <div><img src="d:\Passport B.jpg" alt="Profile" class="rounded-full border-1 border-primary"> </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- About Section -->
+          <section id="about" class="py-20 bg-accent/5">
+            <div class="container mx-auto px-4">
+              <div class="max-w-3xl mx-auto">
+                <h2 class="text-3xl md:text-4xl font-bold mb-8 text-center">
+                  About <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Me</span>
+                </h2>
+                
+                <div class="space-y-6 animate-fade-in">
+                  <p class="text-lg">
+                    I am a dedicated Computer Technologist with expertise in networking, cybersecurity, and data analysis. 
+                    My passion lies in developing secure technological solutions and protecting digital infrastructures from emerging threats.
+                  </p>
+                  
+                  <p class="text-lg">
+                    With a strong foundation in both theoretical knowledge and practical application, I specialize in identifying 
+                    vulnerabilities, implementing robust security measures, and analyzing complex datasets to derive actionable insights.
+                  </p>
+                  
+                  <p class="text-lg">
+                    My approach combines technical expertise with creative problem-solving, allowing me to address complex challenges 
+                    with innovative solutions. I am constantly expanding my knowledge and skills to stay ahead in the rapidly evolving 
+                    technology landscape.
+                  </p>
+                </div>
+                
+                <div class="text-center mt-8 ">
+                  <div class="bg-card p-6 rounded-lg border border-border animate-slide-up">
+                    <h3 class="text-xl font-bold mb-4">Education</h3>
+                    <ul class="space-y-4">
+                      <li>
+                        <div class="text-muted-foreground text-sm">2020 - 2024</div>
+                        <div class="font-medium">Bachelor of Science in Computer Technology</div>
+                        <div class="text-muted-foreground">University of Technology</div>
+                      </li>
+                      <li>
+                        <div class="text-muted-foreground text-sm">2023 - 2025</div>
+                        <div class="font-medium">Associate Degree in Information Technology</div>
+                        <div class="text-muted-foreground">Community College</div>
+                      </li>
+                    </ul>
+                  </div>
+                  
+                  <div class="bg-card p-6 rounded-lg border border-border animate-slide-up" style="animation-delay: 0.2s;">
+                    <h3 class="text-xl font-bold mb-4">Experience</h3>
+                    <ul class="space-y-4">
+                      <li>
+                        <div class="text-muted-foreground text-sm">2024 - Present</div>
+                        <div class="font-medium">Cybersecurity Analyst</div>
+                        <div class="text-muted-foreground">Tech Solutions Inc.</div>
+                      </li>
+                      <li>
+                        <div class="text-muted-foreground text-sm">2024 - 2025</div>
+                        <div class="font-medium">Network Administrator</div>
+                        <div class="text-muted-foreground">Digital Systems Ltd.</div>
+                      </li>
+                      <li>
+                        <div class="text-muted-foreground text-sm">2023 - 2024</div>
+                        <div class="font-medium">IT Support Specialist</div>
+                        <div class="text-muted-foreground">Global Tech Services</div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Skills Section -->
+          <section id="skills" class="py-20">
+            <div class="container mx-auto px-4">
+              <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Technical <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Skills</span>
+              </h2>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0s;">
+                  <h3 class="text-xl font-semibold mb-4">Networking</h3>
+                  <div class="space-y-4">
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Network Configuration</span>
+                        <span class="text-muted-foreground">90%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Router & Switch Management</span>
+                        <span class="text-muted-foreground">85%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">VPN Setup</span>
+                        <span class="text-muted-foreground">80%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Network Troubleshooting</span>
+                        <span class="text-muted-foreground">95%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Firewall Configuration</span>
+                        <span class="text-muted-foreground">85%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0.1s;">
+                  <h3 class="text-xl font-semibold mb-4">Cybersecurity</h3>
+                  <div class="space-y-4">
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Threat Detection</span>
+                        <span class="text-muted-foreground">90%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Vulnerability Assessment</span>
+                        <span class="text-muted-foreground">85%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Security Auditing</span>
+                        <span class="text-muted-foreground">80%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Incident Response</span>
+                        <span class="text-muted-foreground">75%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Penetration Testing</span>
+                        <span class="text-muted-foreground">70%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 70%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0.2s;">
+                  <h3 class="text-xl font-semibold mb-4">Data Analysis</h3>
+                  <div class="space-y-4">
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Excel Advanced Functions</span>
+                        <span class="text-muted-foreground">95%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">SPSS Stata</span>
+                        <span class="text-muted-foreground">85%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Data Visualization</span>
+                        <span class="text-muted-foreground">80%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Statistical Analysis</span>
+                        <span class="text-muted-foreground">75%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Data Cleaning</span>
+                        <span class="text-muted-foreground">90%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0.3s;">
+                  <h3 class="text-xl font-semibold mb-4">Operating Systems</h3>
+                  <div class="space-y-4">
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Windows Administration</span>
+                        <span class="text-muted-foreground">95%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 95%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Linux/Unix</span>
+                        <span class="text-muted-foreground">85%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 85%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">macOS</span>
+                        <span class="text-muted-foreground">80%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 80%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Server Management</span>
+                        <span class="text-muted-foreground">90%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 90%;"></div>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="flex justify-between mb-1">
+                        <span class="font-medium">Virtualization</span>
+                        <span class="text-muted-foreground">75%</span>
+                      </div>
+                      <div class="w-full bg-muted rounded-full h-2">
+                        <div class="progress-bar" style="width: 75%;"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-12 bg-card rounded-lg border border-border p-6 animate-fade-in">
+                <h3 class="text-xl font-semibold mb-4">Additional Skills</h3>
+                <div class="flex flex-wrap gap-2">
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Network Security</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Cloud Computing</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Firewalls</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">IDS/IPS</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Malware Analysis</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Encryption</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Authentication Systems</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Disaster Recovery</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">System Hardening</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Compliance Frameworks</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Risk Assessment</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Python Scripting</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">PowerShell</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Bash Scripting</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Virtualization</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Docker</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">AWS</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Azure</span>
+                  <span class="px-3 py-1 bg-accent rounded-full text-sm font-medium">Google Cloud</span>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Certificates Section -->
+          <section id="certificates" class="py-20 bg-accent/5">
+            <div class="container mx-auto px-4">
+              <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Professional <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Certificates</span>
+              </h2>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-fade-in" style="animation-delay: 0s;">
+                  <div class="p-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Networking</h3>
+                    <div class="flex justify-between items-center mb-4">
+                      <span class="text-muted-foreground">CompTIA</span>
+                      <span class="text-sm bg-accent px-2 py-1 rounded">2023</span>
+                    </div>
+                    <p class="text-muted-foreground">Comprehensive networking certification covering network configuration, troubleshooting, and security principles.</p>
+                  </div>
+                </div>
+
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-fade-in" style="animation-delay: 0.5s;">
+                  <div class="p-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Operating System</h3>
+                    <div class="flex justify-between items-center mb-4">
+                      <span class="text-muted-foreground">OS Foundation</span>
+                      <span class="text-sm bg-accent px-2 py-1 rounded">2023</span>
+                    </div>
+                    <p class="text-muted-foreground">Comprehensive certification covering multiple operating systems, their administration, and security.</p>
+                  </div>
+                </div>
+
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-fade-in" style="animation-delay: 0.3s;">
+                  <div class="p-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Data Analysis using Excel and SPSS Stata</h3>
+                    <div class="flex justify-between items-center mb-4">
+                      <span class="text-muted-foreground">Data Analytics Foundation</span>
+                      <span class="text-sm bg-accent px-2 py-1 rounded">2024</span>
+                    </div>
+                    <p class="text-muted-foreground">Professional certification in advanced data analysis techniques using Excel and SPSS Stata software.</p>
+                  </div>
+                </div>
+
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-fade-in" style="animation-delay: 0.2s;">
+                  <div class="p-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Networking Vulnerability</h3>
+                    <div class="flex justify-between items-center mb-4">
+                      <span class="text-muted-foreground">Network Security Association</span>
+                      <span class="text-sm bg-accent px-2 py-1 rounded">2024</span>
+                    </div>
+                    <p class="text-muted-foreground">Specialized training in identifying and addressing network vulnerabilities and implementing security measures.</p>
+                  </div>
+                </div>
+                
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-fade-in" style="animation-delay: 0.1s;">
+                  <div class="p-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Cyber Threat Management</h3>
+                    <div class="flex justify-between items-center mb-4">
+                      <span class="text-muted-foreground">Cybersecurity Institute</span>
+                      <span class="text-sm bg-accent px-2 py-1 rounded">2025</span>
+                    </div>
+                    <p class="text-muted-foreground">Advanced certification in identifying, analyzing, and mitigating various cyber threats and vulnerabilities.</p>
+                  </div>
+                </div>
+                
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-fade-in" style="animation-delay: 0.4s;">
+                  <div class="p-1 bg-gradient-to-r from-blue-500 to-purple-600"></div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Cyber Security Level 6</h3>
+                    <div class="flex justify-between items-center mb-4">
+                      <span class="text-muted-foreground">International Cybersecurity Council</span>
+                      <span class="text-sm bg-accent px-2 py-1 rounded">2025</span>
+                    </div>
+                    <p class="text-muted-foreground">High-level certification demonstrating expertise in advanced cybersecurity concepts and practices.</p>
+                  </div>
+                </div>
+                
+              </div>
+
+              <div class="mt-12 text-center">
+                <p class="text-muted-foreground">
+                  All certificates have been verified and represent completed coursework and examinations.
+                  <br />For more details or verification, please contact me directly.
+                </p>
+              </div>
+            </div>
+          </section>
+
+          <!-- Projects Section -->
+          <section id="projects" class="py-20">
+            <div class="container mx-auto px-4">
+              <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Featured <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Projects</span>
+              </h2>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-slide-up" style="animation-delay: 0s;">
+                  <div class="h-48 bg-muted flex items-center justify-center relative">
+                    <div class="text-4xl">🖥️</div>
+                    <p class="text-sm text-muted-foreground absolute bottom-4">Project image placeholder</p>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Network Security Audit Tool</h3>
+                    <p class="text-muted-foreground mb-4">A comprehensive tool for auditing network security, identifying vulnerabilities, and providing remediation recommendations.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Python</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Nmap</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">SQLite</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Flask</span>
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="variant-outline size-sm">View Details</button>
+                      <button class="variant-ghost size-sm">Live Demo</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-slide-up" style="animation-delay: 0.1s;">
+                  <div class="h-48 bg-muted flex items-center justify-center relative">
+                    <div class="text-4xl">📊</div>
+                    <p class="text-sm text-muted-foreground absolute bottom-4">Project image placeholder</p>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Data Analysis Dashboard</h3>
+                    <p class="text-muted-foreground mb-4">Interactive dashboard for visualizing and analyzing complex datasets using advanced Excel functions and SPSS integration.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Excel</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">SPSS Stata</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Power BI</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">SQL</span>
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="variant-outline size-sm">View Details</button>
+                      <button class="variant-ghost size-sm">Live Demo</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-slide-up" style="animation-delay: 0.2s;">
+                  <div class="h-48 bg-muted flex items-center justify-center relative">
+                    <div class="text-4xl">🛡️</div>
+                    <p class="text-sm text-muted-foreground absolute bottom-4">Project image placeholder</p>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">Cybersecurity Training Platform</h3>
+                    <p class="text-muted-foreground mb-4">Web-based platform for cybersecurity training with interactive modules, assessments, and progress tracking.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">JavaScript</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">React</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Node.js</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">MongoDB</span>
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="variant-outline size-sm">View Details</button>
+                      <button class="variant-ghost size-sm">Live Demo</button>
+                    </div>
+                  </div>
+                </div>
+                <div class="bg-card rounded-lg border border-border overflow-hidden card-hover animate-slide-up" style="animation-delay: 0.3s;">
+                  <div class="h-48 bg-muted flex items-center justify-center relative">
+                    <div class="text-4xl">📈</div>
+                    <p class="text-sm text-muted-foreground absolute bottom-4">Project image placeholder</p>
+                  </div>
+                  <div class="p-6">
+                    <h3 class="text-xl font-semibold mb-2">System Monitoring Solution</h3>
+                    <p class="text-muted-foreground mb-4">Real-time monitoring system for tracking server performance, network traffic, and security events with alert capabilities.</p>
+                    <div class="flex flex-wrap gap-2 mb-4">
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Python</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Grafana</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Prometheus</span>
+                      <span class="px-2 py-1 bg-accent rounded text-xs font-medium">Docker</span>
+                    </div>
+                    <div class="flex gap-3">
+                      <button class="variant-outline size-sm">View Details</button>
+                      <button class="variant-ghost size-sm">Live Demo</button>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="mt-12 text-center">
+                <button class="variant-secondary size-lg">
+                  View All Projects
+                </button>
+              </div>
+            </div>
+          </section>
+
+          <!-- File Upload Section -->
+          <section id="upload" class="py-20">
+            <div class="container mx-auto px-4">
+              <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Upload <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Files</span>
+              </h2>
+
+              <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <!-- Profile Picture Upload -->
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up">
+                  <h3 class="text-xl font-semibold mb-4">Profile Picture</h3>
+                  <div class="flex flex-col items-center">
+                    <div 
+                      id="profile-image-preview"
+                      class="w-48 h-48 rounded-full border-2 border-dashed border-primary/20 flex items-center justify-center mb-6 overflow-hidden profile-image-container"
+                    >
+                      <div class="text-center p-4">
+                        <div class="text-4xl mb-2">👤</div>
+                        <p class="text-sm text-muted-foreground">Upload your profile picture</p>
+                      </div>
+                    </div>
+                    
+                    <input 
+                      type="file" 
+                      id="profile-input"
+                      accept="image/*"
+                      class="hidden"
+                    />
+                    
+                    <button 
+                      id="upload-profile-button"
+                      class="variant-outline"
+                    >
+                      Upload Picture
+                    </button>
+                    
+                    <p id="profile-upload-message" class="text-sm text-muted-foreground mt-2 hidden">
+                      Profile picture uploaded successfully!
+                    </p>
+                  </div>
+                </div>
+                
+                <!-- CV Upload -->
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0.2s;">
+                  <h3 class="text-xl font-semibold mb-4">Curriculum Vitae</h3>
+                  <div class="flex flex-col items-center">
+                    <div id="cv-preview" class="w-full h-48 rounded-lg border-2 border-dashed border-primary/20 flex items-center justify-center mb-6">
+                      <div class="text-center p-4">
+                        <div class="text-4xl mb-2">📄</div>
+                        <p class="text-sm text-muted-foreground">Upload your CV (PDF, DOCX)</p>
+                      </div>
+                    </div>
+                    
+                    <input 
+                      type="file" 
+                      id="cv-input"
+                      accept=".pdf,.doc,.docx"
+                      class="hidden"
+                    />
+                    
+                    <button 
+                      id="upload-cv-button"
+                      class="variant-outline"
+                    >
+                      Upload CV
+                    </button>
+                    
+                    <p id="cv-upload-message" class="text-sm text-muted-foreground mt-2 hidden">
+                        CV uploaded successfully!
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Contact Section -->
+          <section id="contact" class="py-20 bg-accent/5">
+            <div class="container mx-auto px-4">
+              <h2 class="text-3xl md:text-4xl font-bold mb-12 text-center">
+                Get In <span class="bg-clip-text text-transparent bg-gradient-to-r from-blue-400 to-purple-600">Touch</span>
+              </h2>
+
+              <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div class="animate-slide-left">
+                  <h3 class="text-2xl font-semibold mb-6">Contact Information</h3>
+                  <p class="text-muted-foreground mb-8">
+                    Feel free to reach out for collaborations, job opportunities, or just to say hello. 
+                    I'm always open to discussing new projects and ideas.
+                  </p>
+                  
+                  <div class="space-y-4">
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                        </svg>
+                      </div>
+                      <a href="https://wa.me/254743131826" target="_blank" rel="noopener noreferrer" class="text-foreground hover:text-primary transition-colors">
+                        +254743131826
+                      </a>
+                    </div>
+                    
+                    <div class="flex items-center gap-4">
+                      <div class="w-10 h-10 rounded-full bg-accent flex items-center justify-center">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                          <rect width="20" height="16" x="2" y="4" rx="2"></rect>
+                          <path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"></path>
+                        </svg>
+                      </div>
+                      <a href="mailto:btiar0928@gmail.com" class="text-foreground hover:text-primary transition-colors">
+                        btiar0928@gmail.com
+                      </a>
+                    </div>
+                    
+                    <div class="mt-8">
+                      <h4 class="text-lg font-medium mb-4">Connect with me</h4>
+                      <div class="flex gap-4">
+                        <a href="https://www.facebook.com/share/15zJYdDyDU/" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-accent hover:bg-primary/20 flex items-center justify-center transition-colors">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"></path>
+                          </svg>
+                        </a>
+                        
+                        <a href="https://www.instagram.com/nyakundi_btiar?igsh=MWF2aWU1ZHkxaWlidw==" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-accent hover:bg-primary/20 flex items-center justify-center transition-colors">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
+                            <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"></line>
+                          </svg>
+                        </a>
+                        
+                        <a href="https://www.linkedin.com/in/brian-nyakundi-8b2b20295?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-accent hover:bg-primary/20 flex items-center justify-center transition-colors">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                            <rect width="4" height="12" x="2" y="9"></rect>
+                            <circle cx="4" cy="4" r="2"></circle>
+                          </svg>
+                        </a>
+                        
+                        <a href="https://www.tiktok.com/@nyakundi9?_t=ZM-8wrz49ekq7J&_r=1" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-full bg-accent hover:bg-primary/20 flex items-center justify-center transition-colors">
+                          <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M9 12a4 4 0 1 0 0 8 4 4 0 0 0 0-8z"></path>
+                            <path d="M15 8a4 4 0 1 0 0-8 4 4 0 0 0 0 8z"></path>
+                            <path d="M15 8v8a4 4 0 0 1-4 4H9"></path>
+                            <line x1="15" x2="15" y1="4" y2="12"></line>
+                          </svg>
+                        </a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                
+                <div class="bg-card rounded-lg border border-border p-6 animate-slide-right">
+                  <h3 class="text-xl font-semibold mb-6">Send Me a Message</h3>
+                  <form id="contact-form" class="space-y-4">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                      <div>
+                        <label for="name" class="block text-sm font-medium mb-1">Name</label>
+                        <input 
+                          type="text" 
+                          id="name" 
+                          name="name"
+                          placeholder="Your Name"
+                          required
+                        />
+                      </div>
+                      <div>
+                        <label for="email" class="block text-sm font-medium mb-1">Email</label>
+                        <input 
+                          type="email" 
+                          id="email" 
+                          name="email"
+                          placeholder="your.email@example.com"
+                          required
+                        />
+                      </div>
+                    </div>
+                    
+                    <div>
+                      <label for="subject" class="block text-sm font-medium mb-1">Subject</label>
+                      <input 
+                        type="text" 
+                        id="subject" 
+                        name="subject"
+                        placeholder="Subject"
+                        required
+                      />
+                    </div>
+                    
+                    <div>
+                      <label for="message" class="block text-sm font-medium mb-1">Message</label>
+                      <textarea 
+                        id="message" 
+                        name="message"
+                        rows="5"
+                        placeholder="Your message here..."
+                        required
+                      ></textarea>
+                    </div>
+                    
+                    <button type="submit" class="variant-glow w-full">
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+        </main>
+
+        <footer class="bg-card py-3 border-t border-border">
+          <div class="container mx-auto px-4 text-center">
+            <p class="text-muted-foreground">
+              &copy; 2025 Brian Nyakundi. All rights reserved.
+            </p>
+            <p class="text-sm text-muted-foreground mt-2">
+              Computer Technologist & Cybersecurity Specialist
+            </p>
+          </div>
+        </footer>
+    </div>
+</body>
+</html>
+
