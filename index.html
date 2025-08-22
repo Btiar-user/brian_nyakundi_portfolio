@@ -620,36 +620,30 @@
                   </div>
                 </div>
                 
-                <!-- CV Upload -->
-                <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0.2s;">
-                  <h3 class="text-xl font-semibold mb-4">Curriculum Vitae</h3>
-                  <div class="flex flex-col items-center">
-                    <div id="cv-preview" class="w-full h-48 rounded-lg border-2 border-dashed border-primary/20 flex items-center justify-center mb-6">
-                      <div class="text-center p-4">
-                        <div class="text-4xl mb-2">📄</div>
-                        <p class="text-sm text-muted-foreground">Upload your CV (PDF, DOCX)</p>
-                      </div>
+                <!-- CV Section -->
+              <div class="bg-card rounded-lg border border-border p-6 animate-slide-up" style="animation-delay: 0.2s;">
+                <h3 class="text-xl font-semibold mb-4">Curriculum Vitae</h3>
+                <div class="flex flex-col items-center">
+                  
+                  <div id="cv-preview" class="w-full h-48 rounded-lg border-2 border-4 border-primary/20 flex items-center justify-center mb-6">
+                    <div class="text-center p-4">
+                      <div class="text-4xl mb-2">📄</div>
+                      <p class="text-sm text-muted-foreground">My CV is ready to view</p>
                     </div>
-                    
-                    <input 
-                      type="file" 
-                      id="cv-input"
-                      accept=".pdf,.doc,.docx"
-                      class="hidden"
-                    />
-                    
-                    <button 
-                      id="upload-cv-button"
-                      class="variant-outline"
-                    >
-                      Upload CV
-                    </button>
-                    
-                    <p id="cv-upload-message" class="text-sm text-muted-foreground mt-2 hidden">
-                        CV uploaded successfully!
-                    </p>
                   </div>
+                  
+                  <!-- View CV button -->
+                  <a 
+                    href="D:/Brian Resume.pdf" 
+                    target="_blank" 
+                    class="variant-outline px-4 py-2 rounded-lg"
+                  >
+                    View CV
+                  </a>
+                  
                 </div>
+              </div>
+
               </div>
             </div>
           </section>
